@@ -1,13 +1,202 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Open Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+header {
+  padding-top: 10px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: white;
+}
+
+h2 {
+  display: flex;
+  top: 50%;
+  margin-left: 30%;
+}
+
+h2 a {
+  margin: 0 10px 0 10px;
+}
+
+.sidenav {
+  top: 0;
+  height: auto;
+  width: 220px;
+  position: fixed;
+  z-index: 1;
+  margin-left: 5%;
+  top: 15%;
+  margin-bottom: 5%;
+}
+.sidenav h3 {
+  display: flex;
+  margin-left: 15%;
+}
+
+h3 {
+  display: flex;
+  margin-left: 35%;
+}
+
+h3 a {
+  margin: 0 10px 0 10px;
+}
+
+.logo a {
+  width: 270px;
+  margin-bottom: 0;
+  display: inline-block;
+  font-family: Georgia, serif;
+  font-size: 28px;
+  margin-left: 10%;
+  /* margin-right: 50%; */
+  color: red;
+}
+.btn btn-danger {
+  position: absolute;
+  display: inline-block;
+  left: 40%;
+  width: auto;
+  height: 20px;
+  margin-bottom: 0;
+  margin-left: 80%;
+  color: red;
+}
+.searchBox {
+  width: 40%;
+  margin-left: 15%;
+  margin-right: 10%;
+  display: inline-block;
+}
+
+.line {
+  position: relative;
+  z-index: 10;
+}
+
+ol {
+  position: relative;
+  left: 25%;
+  width: 50%;
+  display: block;
+  min-height: 100px;
+  padding-bottom: 20px;
+}
+
+li {
+  height: 10%;
+  margin-bottom: 5%;
+  font-size: 16px;
+}
+
+li a {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+hr {
+  margin: 5px;
+}
+
+h5 {
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 12px;
+  color: gray;
+}
+
+.date {
+  margin-left: 1%;
+  display: inline-block;
+  font-size: 12px;
+  color: gray;
+}
+
+.text {
+  font-size: 14px;
+}
+
+.HPP {
+  display: none;
+}
+
+.button3 {
+  height: 3%;
+  width: 10%;
+  margin-left: 45%;
+  margin-block-end: 5%;
+  /* float: right; */
+}
+
+.stats {
+  display: inline-block;
+  border: 1px gray;
+  border-radius: 5px;
+  margin-left: 30%;
+}
+
+.sort {
+  display: inline-block;
+  border: 1px gray;
+  border-radius: 5px;
+  margin-left: 18%;
+  margin-bottom: 1%;
+}
+
+.hits {
+  position: relative;
+  width: 100%;
+  top: 10%;
+}
+.content {
+  width: 100%;
+}
+
+.ais-RefinementList-showMore {
+  background-color: white;
+  color: black;
+  margin-left: 15%;
+}
+
+.ais-RefinementList-checkbox {
+  margin-left: 0%;
+}
+
+.ais-RefinementList-labelText {
+  font-size: 12px;
+}
+
+.ais-RefinementList-list {
+  margin-left: 10%;
+}
+
+.ais-RefinementList-item {
+  margin-left: 10%;
+}
+.ais-RefinementList-count {
+  padding: 0;
+  font-size: 10px;
+}
+.ais-RefinementList-label {
+  margin-bottom: 0;
+}
+
+.lower {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
 }
